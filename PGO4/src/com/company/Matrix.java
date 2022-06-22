@@ -64,20 +64,6 @@ public class Matrix {
         return new Matrix(newMatrix);
     }
 
-      /*  public Matrix multiply(Matrix m1, Matrix m2){
-        int [][] matrix1 = m1.getMatrix();
-        int [][] matrix2 = m2.getMatrix();
-        int [][] multiMatrix = new int [3][3];
-        for(int i=0; i<3;i++){
-            for(int j=0; j<3; j++){
-              for (int k=0; k<3;k++) {
-              multiMatrix[i][j]+=m1[i][k]*m2[k][j];
-              }
-              System.out.print(multiMatrix[i][j]+ " ");
-            }
-            System.out.println();
-        }
-        }*/
     
     public static void setUpMatrix(int rowCount, int columnCount){
         tempArray = new int[rowCount][columnCount];
